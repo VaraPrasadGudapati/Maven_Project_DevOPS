@@ -9,4 +9,8 @@ public class RestController {
 	public String getMsg() {
 		return "hello world of DevOPS eng";
 	}
+	@GetMapping("/msg2")
+	public String getMsg2() {
+		return "hello world of DevOPS eng seeking 2nd time";
+	}
 }
